@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV2" duration-ms="18403" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:57 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:Tests.TC_LoginTest_001@711f39f9]" name="loginTest" class="Tests.TC_LoginTest_001"/>
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:Tests.TC_LoginTest_001@e320068]" name="loginTest" class="Tests.TC_LoginTest_001"/>
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:Tests.TC_LoginTest_001@4493d195]" name="loginTest" class="Tests.TC_LoginTest_001"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="BankingApp Test6" duration-ms="16322" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:55 IST">
+      <class name="Tests.TC_LoginTest_001">
+        <test-method status="PASS" signature="setupApp(java.lang.String)[pri:0, instance:Tests.TC_LoginTest_001@4493d195]" name="setupApp" is-config="true" duration-ms="11744" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:Tests.TC_LoginTest_001@4493d195]" name="loginTest" duration-ms="3664" started-at="2021-03-01T13:21:50 IST" finished-at="2021-03-01T13:21:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:Tests.TC_LoginTest_001@4493d195]" name="closeApp" is-config="true" duration-ms="744" started-at="2021-03-01T13:21:54 IST" finished-at="2021-03-01T13:21:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Tests.TC_LoginTest_001 -->
+    </test> <!-- BankingApp Test6 -->
+    <test name="BankingApp Test5" duration-ms="17378" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:56 IST">
+      <class name="Tests.TC_LoginTest_001">
+        <test-method status="PASS" signature="setupApp(java.lang.String)[pri:0, instance:Tests.TC_LoginTest_001@e320068]" name="setupApp" is-config="true" duration-ms="13960" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:Tests.TC_LoginTest_001@e320068]" name="loginTest" duration-ms="1925" started-at="2021-03-01T13:21:53 IST" finished-at="2021-03-01T13:21:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:Tests.TC_LoginTest_001@e320068]" name="closeApp" is-config="true" duration-ms="1351" started-at="2021-03-01T13:21:55 IST" finished-at="2021-03-01T13:21:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Tests.TC_LoginTest_001 -->
+    </test> <!-- BankingApp Test5 -->
+    <test name="BankingApp Test4" duration-ms="18403" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:57 IST">
+      <class name="Tests.TC_LoginTest_001">
+        <test-method status="PASS" signature="setupApp(java.lang.String)[pri:0, instance:Tests.TC_LoginTest_001@711f39f9]" name="setupApp" is-config="true" duration-ms="13733" started-at="2021-03-01T13:21:39 IST" finished-at="2021-03-01T13:21:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:Tests.TC_LoginTest_001@711f39f9]" name="loginTest" duration-ms="3805" started-at="2021-03-01T13:21:52 IST" finished-at="2021-03-01T13:21:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:Tests.TC_LoginTest_001@711f39f9]" name="closeApp" is-config="true" duration-ms="723" started-at="2021-03-01T13:21:56 IST" finished-at="2021-03-01T13:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Tests.TC_LoginTest_001 -->
+    </test> <!-- BankingApp Test4 -->
+  </suite> <!-- InetBankingV2 -->
+</testng-results>

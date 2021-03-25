@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InetBankingV2" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="ReusableComponents.ListenersImplementation"></listener>
+    </listeners>
+
+
+    <test name="BankingApp Test4">
+
+        <parameter name="browser" value="chrome"/>
+
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="smoke"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+        <classes>
+            <class name="Tests.TC_AddCustomerTest_003"></class>
+            <class name="Tests.TC_LoginTest_001"></class>
+        </classes>
+    </test>
+
+    <test name="BankingApp Test5">
+        <parameter name="browser" value="firefox"/>
+
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="smoke"></exclude>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+        <classes>
+            <class name="Tests.TC_AddCustomerTest_003"></class>
+            <class name="Tests.TC_LoginTest_001"></class>
+        </classes>
+    </test>
+
+    <test name="BankingApp Test6">
+        <parameter name="browser" value="edge"/>
+
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="smoke"></exclude>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+        <classes>
+            <class name="Tests.TC_AddCustomerTest_003"></class>
+            <class name="Tests.TC_LoginTest_001"></class>
+        </classes>
+    </test>
+</suite>

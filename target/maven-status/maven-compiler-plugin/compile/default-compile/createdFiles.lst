@@ -1,0 +1,11 @@
+FactoryClasses\MyLogger.class
+FactoryClasses\ExtentReportNG.class
+PageObjects\AddCustomerPage.class
+ReusableComponents\ListenersImplementation.class
+FactoryClasses\ExtentFactory.class
+FactoryClasses\DriverFactory.class
+PageObjects\LoginPage.class
+ReusableComponents\PropertiesOperation.class
+TestBase\BaseClass.class
+ReusableComponents\ActionEngine.class
+FactoryClasses\BrowserFactory.class
